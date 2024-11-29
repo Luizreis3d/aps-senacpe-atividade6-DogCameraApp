@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Button, Image, Text } from 'react-native';
 import DogList from './components/DogList';
 import CameraView from './components/CameraView';
